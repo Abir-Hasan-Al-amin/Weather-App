@@ -10,7 +10,6 @@ import { useSelector } from "react-redux";
 export default function Today() {
   const data = useSelector((state) => state.curData);
   const hourlyForecast=data.forecastData;
-  console.log(hourlyForecast);
   let pic = rain;
   const logo = (wId) => {
     if (wId === "01d") {
@@ -53,7 +52,7 @@ export default function Today() {
   };
   return (
     <div className="flex justify-center items-center">
-      <div className="w-[80%] bg-[#202B3B] rounded-lg flex p-4 sm:p-8 flex-col">
+      <div className="w-[80%] bg-[#202B3B] rounded-lg flex p-4 sm:p-6 flex-col">
         <div className=" mb-4">
           <h1 className=" text-[#AAAEB7] font-medium uppercase">
             Today's Forecast

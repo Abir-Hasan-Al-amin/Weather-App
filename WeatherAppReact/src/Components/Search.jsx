@@ -43,7 +43,7 @@ export default function Search() {
       dispatch(fetchCurrentWeatherAndForecast(city));
     }, []);
     return (
-      <div className=" flex justify-center items-center mt-14">
+      <div className=" flex justify-center items-center">
           <div className="relative w-[90%] md:w-[80%]">
               <input
                   placeholder="Search for cities"

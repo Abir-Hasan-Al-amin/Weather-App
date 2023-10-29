@@ -37,13 +37,13 @@ export default function Display() {
     <div className='grid grid-cols-2 my-8'>
         <div className='flex justify-center items-center flex-col'>
                 <div className=' ml-6 md:ml-0'>
-                <h1 className='text-[#F0F0F2] text-2xl md:text-4xl lg:text-5xl font-bold'>{name}</h1>
+                <h1 className='text-[#F0F0F2] text-2xl md:text-4xl 2xl:text-5xl font-bold'>{name}</h1>
                 <p className='text-[#717883] text-sm md:text-xl mt-2 md:mt-6'>Humidity : {humidity} %</p>
-                <p className='text-[#F0F0F2] mt-2  md:mt-5 text-2xl md:text-4xl lg:text-5xl font-bold text-left'>{temp}&ordm;</p>
+                <p className='text-[#F0F0F2] mt-2  md:mt-5 text-2xl md:text-4xl 2xl:text-5xl font-bold text-left'>{temp}&ordm;</p>
                 </div>
         </div>
         <div className='flex justify-center items-center'>
-            <img src={pic} className='w-28 md:w-32 lg:w-40'/>
+            <img src={pic} className='w-28 md:w-32 2xl:w-40'/>
         </div>
     </div>
   )
