@@ -1,6 +1,9 @@
 # Weather-App {OpenWeatherMapApi, GeoLocation-for current location}
 
-# Screen Shots:
+## Live:
+[Weather App](https://weatherapp-abir.netlify.app/)
+
+## Screen Shots:
 
 ![1](https://github.com/Abir-Hasan-Al-amin/Weather-App/assets/140844292/9d5c7f2f-1057-4bec-934a-b951036c4dbb)
 
