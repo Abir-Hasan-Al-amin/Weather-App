@@ -9,7 +9,7 @@ import moon from "../assets/moon.png";
 import { useSelector } from "react-redux";
 export default function Today() {
   const data = useSelector((state) => state.curData);
-  const hourlyForecast=data.forecastData;
+  const hourlyForecast = data.forecastData;
   let pic = rain;
   const logo = (wId) => {
     if (wId === "01d") {
@@ -61,9 +61,7 @@ export default function Today() {
         <div className="grid grid-cols-6 gap-4">
           <div className="flex flex-col justify-center items-center gap-2">
             <p className=" text-[#AAAEB7] text-sm md:text-base font-medium">
-              {hourlyForecast
-                ? time(hourlyForecast.list[0].dt_txt)
-                : "0:0 AM"}
+              {hourlyForecast ? time(hourlyForecast.list[0].dt_txt) : "0:0 AM"}
             </p>
             <img
               src={
@@ -81,9 +79,7 @@ export default function Today() {
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <p className=" text-[#AAAEB7] text-sm md:text-base font-medium">
-              {hourlyForecast
-                ? time(hourlyForecast.list[1].dt_txt)
-                : "0:0 AM"}
+              {hourlyForecast ? time(hourlyForecast.list[1].dt_txt) : "0:0 AM"}
             </p>
             <img
               src={
@@ -101,9 +97,7 @@ export default function Today() {
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <p className=" text-[#AAAEB7] text-sm md:text-base font-medium">
-              {hourlyForecast
-                ? time(hourlyForecast.list[2].dt_txt)
-                : "0:0 AM"}
+              {hourlyForecast ? time(hourlyForecast.list[2].dt_txt) : "0:0 AM"}
             </p>
             <img
               src={
@@ -121,9 +115,7 @@ export default function Today() {
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <p className=" text-[#AAAEB7] text-sm md:text-base font-medium">
-              {hourlyForecast
-                ? time(hourlyForecast.list[3].dt_txt)
-                : "0:0 AM"}
+              {hourlyForecast ? time(hourlyForecast.list[3].dt_txt) : "0:0 AM"}
             </p>
             <img
               src={
@@ -141,9 +133,7 @@ export default function Today() {
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <p className=" text-[#AAAEB7] text-sm md:text-base font-medium">
-              {hourlyForecast
-                ? time(hourlyForecast.list[4].dt_txt)
-                : "0:0 AM"}
+              {hourlyForecast ? time(hourlyForecast.list[4].dt_txt) : "0:0 AM"}
             </p>
             <img
               src={
@@ -161,9 +151,7 @@ export default function Today() {
           </div>
           <div className="flex flex-col justify-center items-center gap-2">
             <p className=" text-[#AAAEB7] text-sm md:text-base font-medium">
-              {hourlyForecast
-                ? time(hourlyForecast.list[5].dt_txt)
-                : "0:0 AM"}
+              {hourlyForecast ? time(hourlyForecast.list[5].dt_txt) : "0:0 AM"}
             </p>
             <img
               src={
